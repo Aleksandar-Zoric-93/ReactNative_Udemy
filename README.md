@@ -1,4 +1,4 @@
-# ReactNative_Udemy
+# React Native
 React Native course content from Udemy.
 
 Link: https://www.udemy.com/course/react-native-the-practical-guide/
