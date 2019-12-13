@@ -25,4 +25,5 @@ npm update
 npm audit fix
 npm install <package-name> (e.g. npm install mem)
 ```
+Once all the above commands are successfully executed, commit the changes to GitHub.
 
