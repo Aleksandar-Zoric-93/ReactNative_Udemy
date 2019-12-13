@@ -17,3 +17,12 @@ var sharedBlacklist = [
 ];
 ```
 
+### Fix for package vulnerability found in GitHub
+Open your IDE's default terminal in the project folder and run the following commands;
+
+```javascript
+npm update
+npm audit fix
+npm install <package-name> (e.g. npm install mem)
+```
+
