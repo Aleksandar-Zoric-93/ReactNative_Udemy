@@ -7,10 +7,13 @@ Link: https://www.udemy.com/course/react-native-the-practical-guide/
 
 ### Bugfix in Node.Js when running npm start
 Go to node_modules > metro-config > src > defaults and replace existing code with this:
+
+```javascript
 var sharedBlacklist = [
   /node_modules[\/\\]react[\/\\]dist[\/\\].*/,
   /website\/node_modules\/.*/,
   /heapCapture\/bundle\.js/,
   /.*\/__tests__\/.*/
 ];
+```
 
