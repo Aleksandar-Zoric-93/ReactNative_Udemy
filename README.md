@@ -6,7 +6,8 @@ Link: https://www.udemy.com/course/react-native-the-practical-guide/
 ![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--DsRi1C7P--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/8m2htjjpp31idwz8wnrz.jpg)
 
 ### Bugfix in Node.Js when running npm start
-This was occuring on Node.js version 6.13.0
+This was occuring on Node.js version 6.13.0.
+
 Go to node_modules > metro-config > src > defaults and replace existing code with this:
 
 ```javascript
