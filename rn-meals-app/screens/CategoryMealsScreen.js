@@ -10,6 +10,11 @@ const CategoriesMealsScreen = props => {
                     routeName: 'MealDetail'
                 });
             }} />
+
+<Button title="Go Back" onPress={() => {
+    {/* You can use push to stack the same screen on top of current page stack.  Pop to pop the page off the stack. */}
+                props.navigation.goBack();
+            }} />
         </View>
     );
 };

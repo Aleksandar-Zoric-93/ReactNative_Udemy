@@ -6,6 +6,7 @@ const CategoriesScreen = props => {
         <View style={styles.screen}>
             <Text>The Categories Screen</Text>
             <Button title="Go to Meals" onPress={() => {
+                {/* Use replace instead of navigate when you don't want the user to be able to go back e.g. once they login */}
                 props.navigation.navigate({routeName: 'CategoryMeals'});
             }} />
         </View>
